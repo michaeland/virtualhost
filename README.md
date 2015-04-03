@@ -22,6 +22,8 @@ if you copy it without the .sh extension:
         $ chmod +x virtualhost
         $ wget -O virtualhost-nginx https://raw.githubusercontent.com/michaeland/virtualhost/master/virtualhost-nginx.sh
         $ chmod +x virtualhost-nginx
+        $ wget -O newuser https://raw.githubusercontent.com/michaeland/virtualhost/master/newuser.sh
+        $ chmod +x newuser
 
 ## Usage ##
 
