@@ -47,7 +47,7 @@ if [ "$action" == 'create' ]
 		### check if directory exists or not
 		if ! [ -d $userDir$rootdir ]; then
 			### create the directory
-			mkdir $userDir$rootdir
+			mkdir -p $userDir$rootdir
 			### give permission to root dir
 			chmod 755 $userDir$rootdir
 			### write test file in the new domain dir

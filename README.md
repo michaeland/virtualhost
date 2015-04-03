@@ -18,9 +18,9 @@ if you copy it without the .sh extension:
 ### For Global Shortcut ###
 
         $ cd /usr/local/bin
-        $ wget -O virtualhost https://raw.githubusercontent.com/RoverWire/virtualhost/master/virtualhost.sh
+        $ wget -O virtualhost https://raw.githubusercontent.com/michaeland/virtualhost/master/virtualhost.sh
         $ chmod +x virtualhost
-        $ wget -O virtualhost-nginx https://raw.githubusercontent.com/RoverWire/virtualhost/master/virtualhost-nginx.sh
+        $ wget -O virtualhost-nginx https://raw.githubusercontent.com/michaeland/virtualhost/master/virtualhost-nginx.sh
         $ chmod +x virtualhost-nginx
 
 ## Usage ##
