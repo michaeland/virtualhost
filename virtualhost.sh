@@ -51,12 +51,12 @@ if [ "$action" == 'create' ]
 			### give permission to root dir
 			chmod 755 $userDir$rootdir
 			### write test file in the new domain dir
-			if ! echo "<?php echo phpinfo(); ?>" > $userDir$rootdir/phpinfo.php
+			if ! echo "Hello World!" > $userDir$rootdir/index.html
 			then
-				echo $"ERROR: Not able to write in file $userDir/$rootdir/phpinfo.php. Please check permissions"
+				echo $"ERROR: Not able to write in file $userDir/$rootdir/index.html. Please check permissions"
 				exit;
 			else
-				echo $"Added content to $userDir$rootdir/phpinfo.php"
+				echo $"Added content to $userDir$rootdir/html.html"
 			fi
 		fi
 
