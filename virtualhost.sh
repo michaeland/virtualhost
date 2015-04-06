@@ -86,15 +86,6 @@ if [ "$action" == 'create' ]
 			echo -e $"\nNew Virtual Host Created\n"
 		fi
 
-		### Add domain in /etc/hosts
-		if ! echo "127.0.0.1	$domain" >> /etc/hosts
-		then
-			echo $"ERROR: Not able to write in /etc/hosts"
-			exit;
-		else
-			echo -e $"Host added to /etc/hosts file \n"
-		fi
-
 		if [ "$owner" == "" ]; then
 			chown -R $(whoami):$(whoami) $userDir$rootdir
 		else
